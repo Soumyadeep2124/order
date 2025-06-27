@@ -1,0 +1,248 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", serif;
+}
+body{
+    background-color: white;
+    margin-left: 8vw;
+}
+.nav1{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1vh;
+}
+header{
+    height: 30vh;
+    border-bottom: 0.5px solid rgb(202, 200, 200);
+    margin-bottom: 10vh;
+    position: relative;
+}
+.nav1h{
+    font-style: italic;
+    margin-left: 14vw;
+    font-size: 3vw;
+    margin-right: -1vw;
+
+}
+.nav1f{
+    width: 40vw;
+    height: 7vh;
+    border-radius: 10px;
+    border-color: white;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
+    padding-left: 10px;
+    
+}
+.nav1 form{
+    margin-left: -7vw;
+    
+}
+.nav1 button{
+    color: white;
+    background-color: #f84343;
+    border-color: white;
+    border-radius: 10px;
+    height: 6vh;
+    width: 7vw;
+    padding: 10px;
+    
+}
+.btn1n{
+    margin-right: 20px;
+}
+.btn2n{
+    margin-right: 10vw;
+}
+.nav2{
+    display: flex;
+    justify-content: space-between;
+    width: 50vw;
+    margin-left: 15vw;
+    margin-top: 30px;
+    
+}
+.nav2a{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 100px;
+    width: 10vw;
+    
+}
+.nav2a img{
+    width: 3vw;
+    height: 3vw;
+    margin-right: 15px;
+}
+.nav2a h2{
+    font-size: 1vw;
+    color: rgb(157, 154, 154);
+    margin-top: 1vh;
+}
+.nav3{
+    position: sticky;
+    top: 0px;
+
+}
+.nav3{
+    margin-left: 15vw;
+    margin-top: 30px;
+}
+.nav3 button{
+    color: #f84343;
+    background-color: white;
+    border-color: white;
+    border-radius: 10px;
+    height: 6vh;
+    width: 7vw;
+    padding: 10px;
+    border-color: grey;
+    margin-right: 20px;
+}
+.inspiration{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 10vw;
+    margin-left: 10vw;
+}
+.inspiration img{
+    width: 10vw;
+    height: 10vw;
+    border-radius: 100%;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
+}
+.inspiration p{
+    font-family: "Poppins", serif;
+    font-weight: 450;
+    font-size: 1.1vw;
+    padding-left: 3vw;
+    padding-top: 1vh;
+}
+.inspire h2{
+    margin-bottom: 5vh;
+    font-weight: 500;
+    margin-left: 10vw;
+    padding-top: 30px;
+    
+}
+
+.inspire{
+    background-color: #fbfaf7;
+    width: 100vw;
+    height: 40vh;
+    margin-left: -8vw;
+}
+.brands{
+    width: 100vw;
+    height: 35vh;
+    margin-left: -8vw;
+}
+.brands h2{
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    font-weight: 500;
+    margin-left: 10vw;
+}
+.ip{
+    padding-left: 30px;
+    color: grey;
+}
+.card:hover{
+    
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
+}
+#new{
+    padding-top: 15vh;
+}
+.card{
+    display: inline-block;
+    margin-left: 35px;
+    margin-top: 10px;
+    cursor: pointer;
+    border: 2px solid white;
+    border-radius: 22px;
+}
+.box{
+    display: inline-block;
+}
+.img{
+    height: 250px;
+    width: 350px;
+    border-radius: 20px;
+}
+.image{
+    position: relative;
+}
+
+.resturant{
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.resturantname{
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 10px;
+}
+.rating{
+    background-color: green;
+    height: 33px;
+    padding: 6px;
+    border-radius: 10px;
+    position: absolute;
+    right: 3px;
+    color: white;
+}
+.food{
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+}
+.price{
+    position: absolute;
+    right: 5px;
+}
+.distance{
+    position: absolute;
+    right: 5px;
+}
+.location{
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+}
+.food, .place{
+    font-size: 15px;
+    color: rgb(84, 36, 36);
+}
+.distance{
+    font-weight: bold;
+    font-size: 12px;
+}
+.off{
+    font-size: 30px;
+    color: white;
+    background-color: rgba(254, 47, 24, 0.6);
+    position: absolute;
+    bottom: 25px;
+    left: 0px;
+
+}
+
+
+.card:hover{
+    transform: scale(1.02);
+}
+.first{
+    margin-left: 200px;
+    
+}
+
+header{
+    background-color: white;
+    margin-left: -10vw;
+}
+

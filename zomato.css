@@ -1,0 +1,328 @@
+@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.nav{
+    background-image: url(https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png);
+    height: 63vh;
+    width: 100vw;
+    color: white;
+    
+}
+.nav1{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 3vh;
+}
+.nav1a{
+    margin-left: 10vw;
+}
+.nav1a p{
+    font-weight: bold;
+    font-size: 14px;
+}
+.nav1b{
+    display: flex;
+    justify-content: space-around;
+    margin-right: 5vw;
+    
+}
+.navh{
+    margin-right: 3vw;
+    font-weight: lighter;
+}
+.nav2{
+    margin-top: 10vh;
+    margin-left: 40vw;
+    font-size: 3vw;
+}
+.nav2h{
+        font-family: "Poppins", serif;
+        font-weight: 650;
+        font-style: italic;
+        letter-spacing: -3px;
+}
+.nav3{
+    margin-top: -1vh;
+}
+.nav3h{
+    margin-left: 23vw;
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+    font-size: 2.5vw;
+}
+.navf{
+    margin-top: 5vh;
+    margin-left: 23vw;
+    width: 57vw;
+    height: 3.5vw;
+    border-radius: 10px;
+    padding-left: 10px;
+    border-color: white;
+}
+.m1{
+    display: flex;
+    justify-content: space-between;
+    margin: 2.5vw 22vh;
+    
+}
+.m1a{
+    border: 1px solid rgb(210, 209, 209);
+    border-radius: 10px;
+}
+.m1a:hover{
+    transform: scale(1.05);
+}
+.m1aimage{
+    width: 24vw;
+    height: 21vh;
+    border-radius: 10px 10px 0px 0px;
+    
+}
+
+.m1atext h2{
+    font-size: 20px;
+    font-weight: 300px;
+    padding-top: 1vh;
+    padding-left: 1vw;
+    padding-bottom: 1vh;
+    
+}
+.m1atext h3{
+    font-size: 19px;
+    font-weight: lighter;
+    padding-left: 1vw;
+    color: rgb(78, 78, 78);
+    padding-bottom: 1.5vh;
+}
+.m2{
+    margin: 10vh 12.5vw;
+}
+.m2 h2{
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-size: 2.5vw;
+}
+.m2 h3{
+    font-family: "Poppins", serif;
+    font-weight: 350;
+    font-size: 1.2vw;
+    color: rgb(94, 94, 94);
+}
+.m3{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 12.5vw;
+    margin-right: 12vw;
+    margin-top: -4vh;
+     
+}
+.m3a{
+    position: relative;
+}
+.m3a:hover{
+    transform: scale(1.02);
+}
+.m3a img{
+    height: 38vh;
+    width: 18.5vw;
+    border-radius: 10px;
+    
+}
+.imgtxt{
+    color: white;
+    position: absolute;
+    bottom: 40px;
+    left: 20px;
+    z-index: 2;
+    font-size: 1.1vw;
+    font-weight: lighter;
+    font-family: "Poppins", serif;
+    font-weight: 350;
+    
+    
+}
+.imgtxt2{
+    color: white;
+    position: absolute;
+    bottom: 15px;
+    left: 20px;
+    z-index: 2;
+    font-family: "Poppins", serif;
+    font-weight: 350;
+    font-size: 1vw;
+}
+.dark{
+    height: 7.7vh;
+    width: 18.5vw;
+    position: absolute;
+    bottom: 4px;
+    z-index: 1;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0));
+    border-radius: 0px 0px 10px 10px;
+}
+.m4{
+    margin-top: 10vh;
+    margin-left: 12.5vw;
+}
+.m4 h2{
+    font-family: "Poppins", serif;
+    font-weight: 350;
+    font-size: 2.5vw;
+    margin-bottom: 5vh;
+}
+.m4 span{
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-size: 2.5vw;
+    margin-bottom: 5vh;
+}
+.local{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 12.5vw;
+    margin-bottom: 3vh;
+    margin-right: 12.5vw;
+    
+}
+.locality{
+    border: 1px solid rgb(210, 208, 208);
+    border-radius: 5px;
+    width: 24vw;
+    height: 9vh;
+    
+}
+.locality h2{
+    font-family: "Poppins", serif;
+    font-weight: 450;
+    font-size: 1.1vw;
+    padding-left: 10px;
+    padding-top: 15px;
+}
+.locality p{
+    font-family: "Poppins", serif;
+    font-weight: 250;
+    font-size: 1vw;
+    padding-left: 10px;
+}
+.locality h3{
+    font-family: "Poppins", serif;
+    font-weight: 450;
+    font-size: 1.1vw;
+    padding-left: 110px;
+    padding-top: 23px;
+
+}
+.m6{
+    height: 60vh;
+    width: 100vw;
+    background-color: #fcf9f3;
+    display: flex;
+    justify-content: space-between;
+}
+.m6 img{
+    height: 55vh;
+    width: auto;
+}
+.share3{
+    display: flex;
+    justify-content: space-between;
+}
+.share5{
+    display: flex;
+    justify-content: space-between;
+}
+
+.m6a{
+    margin-left: 14vw;
+    margin-top: 5vh;
+
+}
+.m6b{
+    margin-top: 9vh;
+    margin-right: 14vw;
+}
+.m6 h3, p{
+    font-family: "Poppins", serif;
+    font-weight: 450;
+    
+    
+}
+.shareh{
+    font-size: 3vw;
+    word-spacing: 2px;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+.shareh2{
+    font-size: 1.5vw;
+    margin-bottom: 10px;
+    margin-bottom: 30px;
+}
+.share2 h3{
+    color: rgb(97, 96, 96);
+}
+.share3a{
+    width: 25vw;
+    height: 6vh;
+    border-radius: 10px;
+    border-color: white;
+    padding-left: 10px;
+    margin-bottom: 30px;
+}
+.share3 button{
+    background-color: rgb(254, 91, 91);
+    color: white;
+    border-radius: 10px;
+    height: 6vh;
+    width: 10vw;
+    border-color: white;
+    margin-right: 5vw;
+}
+.share4{
+    margin-bottom: 20px;
+}
+.share4 p{
+    color: rgb(95, 95, 95);
+}
+.share5{
+    margin-right: 300px;
+}
+.share5 img{
+    height: 45px;
+    width: 140px;
+}
+.m7 h2{
+        font-family: "Poppins", serif;
+        font-weight: 400;
+        font-size: 2vw;
+        margin-bottom: 3vh;
+        margin-top: 5vh;
+        padding-left: 12.5vw;
+}
+
+.m8a{
+        margin-bottom: 5vh;
+        padding-left: 10px;
+        border: 2px solid rgb(221, 221, 221);
+        width: 74vw;
+        height: 7vh;
+        margin-left: 12.5vw;
+        border-radius: 10px;
+        display: flex;
+        justify-content: space-between;
+}
+.m8a h3{
+    font-family: "Poppins", serif;
+    font-weight: 350;
+    font-size: 20px;
+    padding-top: 10px;
+}
+.m8a h4{
+    padding-top: 18px;
+    padding-right: 10px;
+}
